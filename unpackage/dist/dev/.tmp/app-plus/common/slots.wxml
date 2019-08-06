@@ -1,0 +1,26 @@
+<import src="/components/uni-drawer/uni-drawer.vue.wxml" />
+<import src="/components/uni-list/uni-list.vue.wxml" />
+<import src="/components/uni-list-item/uni-list-item.vue.wxml" />
+<import src="/components/player/player.vue.wxml" />
+<import src="/components/cmd-icon/cmd-icon.vue.wxml" />
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/uni-tag/uni-tag.vue.wxml" />
+
+<template name="7e595675-default-7e595675-5"><template bindtap="handleProxy" title="历史记录" show-arrow="false" data-eventid="{{'7e595675-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'7e595675-1'],$root}}" is="299a0e77"></template><template bindtap="handleProxy" title="下载管理" show-arrow="false" data-eventid="{{'7e595675-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'7e595675-2'],$root}}" is="299a0e77"></template><template bindtap="handleProxy" title="我的歌曲" show-arrow="false" data-eventid="{{'7e595675-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'7e595675-3'],$root}}" is="299a0e77"></template><template bindtap="handleProxy" title="我的收藏" show-arrow="false" data-eventid="{{'7e595675-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'7e595675-4'],$root}}" is="299a0e77"></template></template>
+
+<template name="7e595675-default-7e595675-6"><view style="padding:30rpx;" class="_view 7e595675"><view class="_view 7e595675 uni-title">管理中心</view><template data="{{...$root['0'], ...$root[$kk+'7e595675-5'],$root, $slotdefault:'7e595675-default-7e595675-5'}}" is="230655ea"></template></view></template>
+
+<template name="78ce56db-default-78ce56db-12"><template bindtap="handleProxy" wx:key="i" show-arrow="false" data-eventid="{{'78ce56db-10-'+i}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'78ce56db-11-'+i],$root}}" is="299a0e77" wx:for="{{aStar}}" wx:for-index="i" wx:for-item="song"></template></template>
+
+<template name="78ce56db-default-78ce56db-13"><view style="padding:30rpx;" class="_view 78ce56db"><view class="_view 78ce56db uni-title">我的收藏</view><template data="{{...$root['0'], ...$root[$kk+'78ce56db-12'],$root, $slotdefault:'78ce56db-default-78ce56db-12'}}" is="230655ea"></template></view></template>
+
+<template name="063a910f-default-063a910f-3"><template wx:key="index" show-arrow="false" bindtap="handleProxy" data-eventid="{{'063a910f-2-'+index}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'063a910f-2-'+index],$root}}" is="299a0e77" wx:for="{{songs}}" wx:for-index="index" wx:for-item="song"></template></template>
+
+<template name="577c4739-default-577c4739-1"><template bindtap="handleProxy" wx:key="i" show-arrow="false" data-eventid="{{'577c4739-0-'+i}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'577c4739-0-'+i],$root}}" is="299a0e77" wx:for="{{history}}" wx:for-index="i" wx:for-item="item"></template></template>
+
+<template name="1dab3e3a-default-1dab3e3a-1"><template bindtap="handleProxy" wx:key="i" show-arrow="false" data-eventid="{{'1dab3e3a-0-'+i}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'1dab3e3a-0-'+i],$root}}" is="299a0e77" wx:for="{{aLike}}" wx:for-index="i" wx:for-item="item"></template></template>
+
+<template name="5d04dfcf-default-5d04dfcf-1"><template bindtap="handleProxy" wx:key="i" show-arrow="false" data-eventid="{{'5d04dfcf-0-'+i}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'5d04dfcf-0-'+i],$root}}" is="299a0e77" wx:for="{{aStar}}" wx:for-index="i" wx:for-item="item"></template></template>
+
+<template name="6e7dc74f-default-6e7dc74f-1"><template bindtap="handleProxy" wx:key="i" show-arrow="false" data-eventid="{{'6e7dc74f-0-'+i}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'6e7dc74f-0-'+i],$root}}" is="299a0e77" wx:for="{{s}}" wx:for-index="i" wx:for-item="item"></template></template>
+

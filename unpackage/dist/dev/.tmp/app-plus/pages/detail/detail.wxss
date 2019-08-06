@@ -1,0 +1,40 @@
+
+.header{
+	padding:40rpx;
+	background-color: #ccc;
+}
+.header view {
+	display: inline-block;
+	width: 50%;
+	/* vertical-align: top; */
+}
+image{
+	width:300rpx;
+	height: 300rpx;
+	border-radius: 20rpx;
+	vertical-align: bottom;
+}
+._ul{
+	padding: 40rpx 20rpx;
+	border-radius: 20rpx 20rpx 0 0;
+	list-style: none;
+	background-color: #fff;
+}
+._li{
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	vertical-align: middle;
+}
+._span{
+	display: inline-block;
+	padding-right: 40rpx;
+	color: #888;
+	font-size: 40rpx;
+}
+._h3{
+	font-weight: normal;
+}
+

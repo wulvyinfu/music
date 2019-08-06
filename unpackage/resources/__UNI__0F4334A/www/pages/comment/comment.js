@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"user-view{ padding: ",[0,20],"; border-bottom: ",[0,1]," solid #ccc; }\n.",[1],"title{ vertical-align: middle; }\n.",[1],"user-image{ width: ",[0,60],"; height: ",[0,60],"; border-radius: 50%; vertical-align: middle; }\n.",[1],"_span{ display:inline-block; margin-left:",[0,20],"; }\n",],undefined,{path:"./pages/comment/comment.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/comment/comment.wxml') } }));

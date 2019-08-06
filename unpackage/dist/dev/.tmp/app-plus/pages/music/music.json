@@ -1,0 +1,12 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "share",
+        "float": "right"
+      }
+    ]
+  }
+}

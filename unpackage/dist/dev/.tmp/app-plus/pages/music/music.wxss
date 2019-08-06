@@ -1,0 +1,99 @@
+
+#page .img-body{
+	width: 550rpx;
+	margin: auto;
+	text-align: center;
+	padding: 40rpx 0;
+}
+#page .img-body .img{
+	width: 300rpx;
+	height: 300rpx;
+	border-radius: 50%;
+	border:75rpx solid #000000;
+	-webkit-animation: run 10s linear infinite;
+	        animation: run 10s linear infinite; 
+	animation-play-state:paused;
+	-webkit-animation-play-state:paused; /* Safari 和 Chrome */
+}
+#page .img-body .run{
+	animation-play-state:running;
+	-webkit-animation-play-state:running;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+}
+.slideree{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-left: 40rpx;
+	line-height: 2.5;
+}
+.slideree slider{
+	width: 60%;
+	display: inline-block;
+}
+.lyricbody{
+	height:50rpx;
+	padding: 150rpx 0;
+	overflow: hidden;
+}
+._ul{
+	-webkit-transition: margin 1.5s;
+	-o-transition: margin 1.5s;
+	transition: margin 1.5s;
+	list-style: none;
+	text-align: center;
+	padding: 20rpx;
+	margin: 0;
+}
+._ul ._li{
+	/* height: 54upx; */
+	font-size: 42rpx;
+	height: 32px;
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+._ul .red{
+	/* height: 60upx;
+	line-height: 60upx; */
+	color: red;
+	font-size: 40rpx;
+	height:auto;
+	-o-text-overflow:clip;
+	   text-overflow:clip;
+	white-space:normal;
+	overflow: visible;
+}
+#page .icon-ab{
+	padding: 20rpx 0 0 40px;
+}
+#page .icon-ab .icon{
+	display: inline-block;
+	margin-right: 70rpx;
+}
+#page .icon-bar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding:0 40px;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+@-webkit-keyframes run
+{
+0%   {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+@keyframes run
+{
+0%   {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+
+

@@ -1,0 +1,94 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "音乐播放器",
+// 				"navigationBarBackgroundColor":"purple",
+// 				"backgroundTextStyle":"dark",
+// 				"enablePullDownRefresh":true,
+				"titleNView":{
+					"buttons":[
+						{
+						"type":"menu",
+						"float": "left"
+						},
+						{
+							"type":"none",
+							"text":"\ue466",
+							"fontSrc":"/static/uni.ttf"
+						}
+					]
+				}
+			}
+		},
+		{
+			"path":"pages/search/search",
+			"style":{
+				"titleNView":{
+					"searchInput": {
+						"placeholder":"大家都在搜",
+						"align": "left",
+						"autoFocus": true
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/music/music",
+			"style": {
+				"navigationBarBackgroundColor":"#fff",
+				"titleNView":{
+					"buttons":[
+						{
+						"type":"share",
+						"float": "right"
+						}
+					]
+				}
+			}
+		},
+		{
+			"path": "pages/history/history",
+			"style": {
+				"navigationBarTitleText": "历史记录"
+			}
+		},
+		{
+			"path": "pages/mylove/love",
+			"style": {
+				"navigationBarTitleText": "我的歌曲"
+			}
+		},
+		{
+			"path":"pages/comment/comment",
+			"style":{
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path":"pages/detail/detail",
+			"style":{
+				"navigationBarTitleText": "歌单"
+			}
+		},
+		{
+			"path":"pages/collection/collection",
+			"style":{
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path":"pages/download/download",
+			"style":{
+				"navigationBarTitleText": "下载管理"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

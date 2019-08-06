@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/music/music",
+    "pages/history/history",
+    "pages/mylove/love",
+    "pages/comment/comment",
+    "pages/detail/detail",
+    "pages/collection/collection",
+    "pages/download/download"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "音乐播放器",
+  "compilerVersion": "1.9.2"
+}
